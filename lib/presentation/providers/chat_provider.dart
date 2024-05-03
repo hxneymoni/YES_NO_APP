@@ -9,8 +9,8 @@ class ChatProvider extends ChangeNotifier {
   final getYesNoAnswer = GetYesNoAnswer();
 
   List<Message> messageList = [
-    Message(text: 'hi', fromWho: FromWho.me, sentTime: DateTime.now()),
     Message(text: 'hola', fromWho: FromWho.me, sentTime: DateTime.now()),
+    Message(text: 'bonito', fromWho: FromWho.me, sentTime: DateTime.now()),
   ];
 
   //Método para enviar mensaje
